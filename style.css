@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+div.header-box{
+    color: rgb(102, 5, 5);
+    font-size: 25px;
+    text-align: center;
+    font-size: medium;
+    min-height: fit-content;
+    max-width: fit-content;
+    justify-content: center;
+   align-items: center;
+   padding: 40px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-image: url(https://static.vecteezy.com/system/resources/thumbnails/031/755/718/small/grey-white-technology-abstract-background-vector.jpg);
+   background-size: cover;
+   
+}
+
+*{
+    padding: 10px;background-image: url();
+}
+div.content-box{
+    color: rgb(152, 44, 123);
+   border-left: 5px solid #ff8c00;
+   line-height: 1.2;
+   width: fit-content;
+   text-align: left;
+  padding-left: 10px;
+  margin-top: 30px;
+  font-size: small;
+}
+div.highlight-1{
+    color: rgb(161, 98, 5);
+}
+div.Content-2{
+    color: rgb(147, 21, 103);
+    border-left:5px solid #ff8c00;
+    
+}
+
+div.Heading-1 {
+    color: #ff8c00;
+}
+
+div.Box-1{
+    border-style: dashed;
+    border-color: black;
+    
+}
+div.content-3{
+    color: rgb(147, 21, 103);
+    border-left:5px solid #ff8c00;
+}
+div.content-4{
+    color: rgb(147, 21, 103);
+    border-left:5px solid #ff8c00;
+}
+div.heading-2{
+    color: #ff8c00;
+}
+div.highlight-2{
+    color: rgb(161, 98, 5);
+}
+div.Box-2{
+    
+    border-style: dashed;
+    border-color: black;
+    
+}
+
+div.content-5{
+    color: rgb(147, 21, 103);
+    border-left:5px solid #ff8c00;
+}
+
+div.content-6{
+    color: rgb(147, 21, 103);
+    border-left:5px solid #ff8c00;
+}
+
+div.last{
+    color: rgb(102, 5, 5);
+    text-align: center;
+    font-size: small;
+    font-display: block;
+}
