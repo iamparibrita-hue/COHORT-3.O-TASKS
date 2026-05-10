@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Use a bold sans-serif font */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Creating the two-tone background */
+.left-bg {
+    flex: 6; /* Takes up 60% of width */
+    background-color: #FFD700; /* Bright Yellow */
+}
+
+.right-bg {
+    flex: 4; /* Takes up 40% of width */
+    background-color: #F5E8C7; /* Cream/Beige */
+}
+
+/* Nav & Menu */
+nav {
+    position: absolute;
+    width: 100%;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.menu-icon span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin-bottom: 5px;
+}
+
+/* Layout for Text and Image */
+main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.text-content {
+    flex: 1;
+    z-index: 5;
+}
+
+.subtitle {
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.description {
+    max-width: 350px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* The Pikachu Image overlapping the line */
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.pikachu-img {
+    width: 500px; /* Adjust based on your image size */
+    z-index: 6;
+}
+
+/* Sidebar Dots */
+.dots {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: #BFA56D;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+.dot.active {
+    background: black;
+    transform: scale(1.5);
+}
